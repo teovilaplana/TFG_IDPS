@@ -1,0 +1,1 @@
+Use a generic 2pin connector symbol. Try searching for conn_01x02. For the footprint have a look in the provided Connectors-JST library. Good luck!
