@@ -1,0 +1,5 @@
+Se ha seguido las instrucciones de cada fabricante en cuanto a requerimientos de alimentacion
+Se han seguido las recomendaciones de texas instruments para este tipo de aplicacion (documentacion annexo)
+Se ha comprobado que el consumo de corriente maximo no exceda el limite del sistema (limitacion: se debe apagar el sensor de pulsoxometria mientras se envian datos por uwb)
+Accelerometro puede que requiera un buffer (el original tiene un buffer de 2048 pero esta en EOL y el nuevo es de 512)
+BQ29700 para cumplir con OCP y ODP de la bateria

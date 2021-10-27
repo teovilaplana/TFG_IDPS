@@ -1,0 +1,308 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model KX132-1211
+#/8051433/643760/2.49/12/4/Integrated Circuit
+DEF KX132-1211 IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "KX132-1211" 1350 200 50 H V L CNN
+F2 "KX1321211" 1350 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/KX132-1211.pdf" 1350 0 50 H I L CNN
+F4 "Accelerometers Tri-Axis Acclrmtr 2g, 4g, 8g, 16g" 1350 -100 50 H I L CNN "Description"
+F5 "1" 1350 -200 50 H I L CNN "Height"
+F6 "Kionix" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "KX132-1211" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "912-KX132-1211" 1350 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Kionix/KX132-1211?qs=BJlw7L4Cy7%252BwFHTsv3Qc6Q%3D%3D" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1350 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1350 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SDO/ADDR 1 0 0 200 R 50 50 0 0 P
+X SDI/SDA 2 0 -100 200 R 50 50 0 0 P
+X IO_VDD 3 0 -200 200 R 50 50 0 0 P
+X TRIG 4 0 -300 200 R 50 50 0 0 P
+X INT1 5 0 -400 200 R 50 50 0 0 P
+X INT2 6 0 -500 200 R 50 50 0 0 P
+X VDD 7 1500 0 200 L 50 50 0 0 P
+X GND_1 8 1500 -100 200 L 50 50 0 0 P
+X GND_2 9 1500 -200 200 L 50 50 0 0 P
+X NCS 10 1500 -300 200 L 50 50 0 0 P
+X NC 11 1500 -400 200 L 50 50 0 0 N
+X SCLK/SCL 12 1500 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BQ25120AYFPR
+#/986032/643760/2.49/25/3/Integrated Circuit
+DEF BQ25120AYFPR IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "BQ25120AYFPR" 1350 200 50 H V L CNN
+F2 "BGA25C40P5X5_247X253X50" 1350 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/bq25120a.pdf" 1350 0 50 H I L CNN
+F4 "700nA Low Iq Highly Integrated Battery Charge Management Solution" 1350 -100 50 H I L CNN "Description"
+F5 "0.5" 1350 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BQ25120AYFPR" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-BQ25120AYFPR" 1350 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25120AYFPR?qs=BZBei1rCqCBtbT0X52DCMQ%3D%3D" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BQ25120AYFPR" 1350 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bq25120ayfpr/texas-instruments" 1350 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND_1 A1 0 0 200 R 50 50 0 0 P
+X IN A2 0 -100 200 R 50 50 0 0 P
+X PMID_1 A3 0 -200 200 R 50 50 0 0 P
+X SW A4 0 -300 200 R 50 50 0 0 P
+X PGND A5 0 -400 200 R 50 50 0 0 P
+X BAT_1 B1 0 -500 200 R 50 50 0 0 P
+X BAT_2 B2 0 -600 200 R 50 50 0 0 P
+X PMID_2 B3 0 -700 200 R 50 50 0 0 P
+X VINLS_1 B4 0 -800 200 R 50 50 0 0 P
+X SYS B5 0 -900 200 R 50 50 0 0 P
+X ISET C1 0 -1000 200 R 50 50 0 0 P
+X ILIM C2 0 -1100 200 R 50 50 0 0 P
+X TS C3 0 -1200 200 R 50 50 0 0 P
+X VINLS_2 C4 1500 0 200 L 50 50 0 0 P
+X LS/LDO C5 1500 -100 200 L 50 50 0 0 P
+X IPRETE_RM D1 1500 -200 200 L 50 50 0 0 P
+X INT D2 1500 -300 200 L 50 50 0 0 P
+X RESET D3 1500 -400 200 L 50 50 0 0 P
+X /PG D4 1500 -500 200 L 50 50 0 0 P
+X GND_2 D5 1500 -600 200 L 50 50 0 0 P
+X /MR E1 1500 -700 200 L 50 50 0 0 P
+X /CD E2 1500 -800 200 L 50 50 0 0 P
+X LSCTRL E3 1500 -900 200 L 50 50 0 0 P
+X SDA E4 1500 -1000 200 L 50 50 0 0 P
+X SCL E5 1500 -1100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -1300 200 -1300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BQ27421YZFR-G1A
+#/563544/643760/2.49/9/3/Integrated Circuit
+DEF BQ27421YZFR-G1A IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "BQ27421YZFR-G1A" 1050 200 50 H V L CNN
+F2 "BGA9C50P3X3_162X158X62" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/bq27421-g1" 1050 0 50 H I L CNN
+F4 "System-Side(tm) Fuel Gauge With Integrated Sense Resistor | Battery Gas Gauge" 1050 -100 50 H I L CNN "Description"
+F5 "0.625" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BQ27421YZFR-G1A" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-BQ27421YZFR-G1A" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ27421YZFR-G1A?qs=%252BrH4t%252BeVZ2Mp6UD820nuvA%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BQ27421YZFR-G1A" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bq27421yzfr-g1a/texas-instruments" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GPOUT A1 0 0 200 R 50 50 0 0 P
+X SDA A2 0 -100 200 R 50 50 0 0 P
+X SCL A3 0 -200 200 R 50 50 0 0 P
+X BIN B1 0 -300 200 R 50 50 0 0 P
+X VSS_1 B2 0 -400 200 R 50 50 0 0 P
+X VDD B3 1200 0 200 L 50 50 0 0 P
+X VSS_2 C1 1200 -100 200 L 50 50 0 0 P
+X SRX C2 1200 -200 200 L 50 50 0 0 P
+X BAT C3 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BQ51003YFPT
+#/256205/643760/2.49/28/3/Integrated Circuit
+DEF BQ51003YFPT IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "BQ51003YFPT" 1250 200 50 H V L CNN
+F2 "BGA28C40P4X7_188X301X50" 1250 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/BQ51003" 1250 0 50 H I L CNN
+F4 "BQ51003 Wireless Power Receiver" 1250 -100 50 H I L CNN "Description"
+F5 "0.5" 1250 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BQ51003YFPT" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-BQ51003YFPT" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ51003YFPT?qs=QCUnHQQYO1rX6GZ4rUhwCg%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BQ51003YFPT" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bq51003yfpt/texas-instruments?region=nac" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X PGND_1 A1 0 0 200 R 50 50 0 0 P
+X PGND_2 A2 0 -100 200 R 50 50 0 0 P
+X PGND_3 A3 0 -200 200 R 50 50 0 0 P
+X PGND_4 A4 0 -300 200 R 50 50 0 0 P
+X AC2_1 B1 0 -400 200 R 50 50 0 0 P
+X AC2_2 B2 0 -500 200 R 50 50 0 0 P
+X AC1_1 B3 0 -600 200 R 50 50 0 0 P
+X AC1_2 B4 0 -700 200 R 50 50 0 0 P
+X BOOT2 C1 0 -800 200 R 50 50 0 0 P
+X RECT_1 C2 0 -900 200 R 50 50 0 0 P
+X RECT_2 C3 0 -1000 200 R 50 50 0 0 P
+X BOOT1 C4 0 -1100 200 R 50 50 0 0 P
+X OUT_1 D1 0 -1200 200 R 50 50 0 0 P
+X OUT_2 D2 0 -1300 200 R 50 50 0 0 P
+X OUT_3 D3 1400 0 200 L 50 50 0 0 P
+X OUT_4 D4 1400 -100 200 L 50 50 0 0 P
+X COMM2 E1 1400 -200 200 L 50 50 0 0 P
+X CLAMP2 E2 1400 -300 200 L 50 50 0 0 P
+X CLAMP1 E3 1400 -400 200 L 50 50 0 0 P
+X COMM1 E4 1400 -500 200 L 50 50 0 0 P
+X TS-CTRL F1 1400 -600 200 L 50 50 0 0 P
+X FOD F2 1400 -700 200 L 50 50 0 0 P
+X ~AD-EN F3 1400 -800 200 L 50 50 0 0 P
+X ~CHG F4 1400 -900 200 L 50 50 0 0 P
+X ILIM G1 1400 -1000 200 L 50 50 0 0 P
+X EN2 G2 1400 -1100 200 L 50 50 0 0 P
+X EN1 G3 1400 -1200 200 L 50 50 0 0 P
+X AD G4 1400 -1300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -1400 200 -1400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BQ29700DSER
+#/561206/643760/2.49/6/3/Integrated Circuit
+DEF BQ29700DSER IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "BQ29700DSER" 950 200 50 H V L CNN
+F2 "SON50P150X150X80-6N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/bq2971.pdf" 950 0 50 H I L CNN
+F4 "Li-Ion/Li Polymer Advanced Single-Cell Battery Protector IC Family" 950 -100 50 H I L CNN "Description"
+F5 "0.8" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BQ29700DSER" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-BQ29700DSER" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29700DSER/?qs=%2Fd%252BFzHvH4c3zNh7Hkm%2Fvbw%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BQ29700DSER" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bq29700dser/texas-instruments" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NC 1 0 0 200 R 50 50 0 0 N
+X COUT 2 0 -100 200 R 50 50 0 0 P
+X DOUT 3 0 -200 200 R 50 50 0 0 P
+X V- 6 1100 0 200 L 50 50 0 0 P
+X BAT 5 1100 -100 200 L 50 50 0 0 P
+X VSS 4 1100 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BQ25120AYFPT
+#/963243/643760/2.49/25/3/Integrated Circuit
+DEF BQ25120AYFPT IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "BQ25120AYFPT" 1350 200 50 H V L CNN
+F2 "BGA25C40P5X5_247X253X50" 1350 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/bq25120a" 1350 0 50 H I L CNN
+F4 "700nA Low Iq Highly Integrated Battery Charge Management Solution" 1350 -100 50 H I L CNN "Description"
+F5 "0.5" 1350 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BQ25120AYFPT" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-BQ25120AYFPT" 1350 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25120AYFPT?qs=BZBei1rCqCDn%252BHAvtxAXZg%3D%3D" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BQ25120AYFPT" 1350 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bq25120ayfpt/texas-instruments" 1350 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND_1 A1 0 0 200 R 50 50 0 0 P
+X IN A2 0 -100 200 R 50 50 0 0 P
+X PMID_1 A3 0 -200 200 R 50 50 0 0 P
+X SW A4 0 -300 200 R 50 50 0 0 P
+X PGND A5 0 -400 200 R 50 50 0 0 P
+X BAT_1 B1 0 -500 200 R 50 50 0 0 P
+X BAT_2 B2 0 -600 200 R 50 50 0 0 P
+X PMID_2 B3 0 -700 200 R 50 50 0 0 P
+X VINLS_1 B4 0 -800 200 R 50 50 0 0 P
+X SYS B5 0 -900 200 R 50 50 0 0 P
+X ISET C1 0 -1000 200 R 50 50 0 0 P
+X ILIM C2 0 -1100 200 R 50 50 0 0 P
+X TS C3 0 -1200 200 R 50 50 0 0 P
+X VINLS_2 C4 1500 0 200 L 50 50 0 0 P
+X LS/LDO C5 1500 -100 200 L 50 50 0 0 P
+X IPRETE_RM D1 1500 -200 200 L 50 50 0 0 P
+X INT D2 1500 -300 200 L 50 50 0 0 P
+X RESET D3 1500 -400 200 L 50 50 0 0 P
+X /PG D4 1500 -500 200 L 50 50 0 0 P
+X GND_2 D5 1500 -600 200 L 50 50 0 0 P
+X /MR E1 1500 -700 200 L 50 50 0 0 P
+X /CD E2 1500 -800 200 L 50 50 0 0 P
+X LSCTRL E3 1500 -900 200 L 50 50 0 0 P
+X SDA E4 1500 -1000 200 L 50 50 0 0 P
+X SCL E5 1500 -1100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -1300 200 -1300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BQ29700DSET
+#/13588232/643760/2.49/6/3/Integrated Circuit
+DEF BQ29700DSET IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "BQ29700DSET" 950 200 50 H V L CNN
+F2 "SON50P150X150X80-6N" 950 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/bq2970.pdf?ts=1623391628369&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ2970" 950 0 50 H I L CNN
+F4 "TEXAS INSTRUMENTS - BQ29700DSET - Li-Ion Battery, Li-Pol Voltage & Current Protector, Single Cell, 1.5 V to 8 V supply, WSON-6" 950 -100 50 H I L CNN "Description"
+F5 "0.8" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BQ29700DSET" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-BQ29700DSET" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29700DSET/?qs=%2Fd%252BFzHvH4c1rg6YL9zqcvA%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BQ29700DSET" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bq29700dset/texas-instruments" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NC 1 0 0 200 R 50 50 0 0 N
+X COUT 2 0 -100 200 R 50 50 0 0 P
+X DOUT 3 0 -200 200 R 50 50 0 0 P
+X V- 6 1100 0 200 L 50 50 0 0 P
+X BAT 5 1100 -100 200 L 50 50 0 0 P
+X VSS 4 1100 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CSD83325LT
+#/414104/643760/2.49/6/3/Transistor
+DEF CSD83325LT Q 0 30 Y Y 1 F N
+F0 "Q" 950 300 50 H V L CNN
+F1 "CSD83325LT" 950 200 50 H V L CNN
+F2 "BGA6C65P2X3_111X216X22" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/csd83325l.pdf" 950 0 50 H I L CNN
+F4 "Texas Instruments CSD83325LT N-channel MOSFET Transistor, 8 A, 12 V, 6-Pin PICOSTAR" 950 -100 50 H I L CNN "Description"
+F5 "0.22" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "CSD83325LT" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-CSD83325LT" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD83325LT/?qs=pqSajtDZXRVbUdPgdfAr7A%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "CSD83325LT" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/csd83325lt/texas-instruments" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X S1_1 A1 0 0 200 R 50 50 0 0 P
+X S2_1 A2 0 -100 200 R 50 50 0 0 P
+X G1 B1 0 -200 200 R 50 50 0 0 P
+X G2 B2 1100 0 200 L 50 50 0 0 P
+X S1_2 C1 1100 -100 200 L 50 50 0 0 P
+X S2_2 C2 1100 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

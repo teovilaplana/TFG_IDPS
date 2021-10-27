@@ -1,0 +1,150 @@
+Pozyx: accurate indoor positioning for Arduino -:
+https://duino4projects.com/pozyx-accurate-indoor-positioning-arduino/
+
+nRF51822 Bluetooth Smart Beacon Kit - nordicsemi.com:
+https://www.nordicsemi.com/Products/Reference-designs/nRF51822-Beacon-Kit
+
+Bluetooth mesh - nordicsemi.com:
+https://www.nordicsemi.com/Products/Bluetooth-mesh
+
+Bluetooth mesh - nordicsemi.com:
+https://www.nordicsemi.com/Products/Bluetooth-mesh/Development-hardware
+
+Bluetooth Low Energy - nordicsemi.com:
+https://www.nordicsemi.com/Products/Bluetooth-Low-Energy/Development-hardware
+
+Bluetooth Low Energy - nordicsemi.com:
+https://www.nordicsemi.com/Products/Bluetooth-Low-Energy
+
+Indoor Positioning With Bluetooth Low Energy (BLE) : 4 Steps - Instructables:
+https://www.instructables.com/Indoor-Positioning-with-Bluetooth-Low-Energy/
+
+GitHub - estherbm/Open-BioBand: Biometric Open Source wristband:
+https://github.com/estherbm/Open-BioBand
+
+pozyx arduino - Google Search:
+https://www.google.com/search?q=pozyx+arduino&oq=pozyx&aqs=chrome.1.69i57j0j0i30l4j69i60l2.3321j0j7&sourceid=chrome&ie=UTF-8
+
+GitHub - pozyxLabs/Pozyx-Arduino-library: The Arduino library for use with the pozyx accurate indoor positioning system.:
+https://github.com/pozyxLabs/Pozyx-Arduino-library
+
+Developer tag | Pozyx:
+https://store.pozyx.io/22-001-0001-developer-tag-68#attr=
+
+Arduino:
+https://docs.pozyx.io/creator/latest/arduino
+
+Decawave DW1000 - Google Search:
+https://www.google.com/search?q=Decawave+DW1000&oq=Decawave+DW1000&aqs=chrome..69i57j0i19l3j0i19i22i30l6.566j0j7&sourceid=chrome&ie=UTF-8
+
+DW1000 IC - Decawave:
+https://www.decawave.com/product/dw1000-radio-ic/
+
+DW1000 Datasheet:
+https://www.decawave.com/wp-content/uploads/2020/04/DW1000_Datasheet.pdf
+
+DW1000 User Manual - Decawave:
+https://www.decawave.com/dw1000/usermanual/
+
+DWM1000 Module - Decawave:
+https://www.decawave.com/product/dwm1000-module/
+
+DW1000 Datasheet:
+https://www.decawave.com/wp-content/uploads/2020/09/DWM1000-Datasheet.pdf
+
+DW1000 USER MANUAL:
+file:///E:/Descargas/Chrome/DW1000%20User%20Manual.pdf
+
+Search results for: dw1000 Qorvo – Mouser Spain:
+https://www.mouser.es/Search/Refine?N=4282285770&Keyword=dw1000
+
+DWS1000 Qorvo | Mouser Spain:
+https://www.mouser.es/ProductDetail/Qorvo/DWS1000?qs=TiOZkKH1s2Q1L44eotOGgw%3D%3D
+
+DWM1004C Qorvo | Mouser Spain:
+https://www.mouser.es/ProductDetail/Qorvo/DWM1004C?qs=sPbYRqrBIVldx%2FKFDrxv5Q%3D%3D
+
+DWM3000TR13 Qorvo | Mouser Spain:
+https://www.mouser.es/ProductDetail/Qorvo/DWM3000TR13?qs=hWgE7mdIu5QrWWDEt6OFQw%3D%3D
+
+DWM1004C Qorvo | Mouser Spain:
+https://www.mouser.es/ProductDetail/Qorvo/DWM1004C?qs=sPbYRqrBIVldx%2FKFDrxv5Q==
+
+DW3000 Product Brief:
+https://www.decawave.com/wp-content/uploads/2020/04/DWM1004C_Product_Brief.pdf
+
+DW1000-I-TR13 Qorvo | Mouser Spain:
+https://www.mouser.es/ProductDetail/Qorvo/DW1000-I-TR13?qs=TiOZkKH1s2SHqHtNDSAfuQ%3D%3D
+
+dw1000 arduino - Google Search:
+https://www.google.com/search?q=dw1000+arduino&oq=dw1000+arduino&aqs=chrome..69i57j0i19j0i19i22i30l4.2982j1j7&sourceid=chrome&ie=UTF-8
+
+DW1000 - Arduino Reference:
+https://www.arduino.cc/reference/en/libraries/dw1000/
+
+GitHub - thotro/arduino-dw1000: A library that offers functionality to use Decawave's DW1000 chips/modules with Arduino.:
+https://github.com/thotro/arduino-dw1000
+
+Testbed and Adapter board · thotro/arduino-dw1000 Wiki · GitHub:
+https://github.com/thotro/arduino-dw1000/wiki/Testbed-and-Adapter-board
+
+Localino - We keep you on track!:
+https://www.localino.net/en/
+
+Development and Productservices | Localino - We keep you on track!:
+https://www.localino.net/en/forschung-entwicklung/
+
+GitHub - thotro/arduino-dw1000: A library that offers functionality to use Decawave's DW1000 chips/modules with Arduino.:
+https://github.com/thotro/arduino-dw1000
+
+localino arduino pcb - Google Search:
+https://www.google.com/search?q=localino+arduino+pcb&oq=localino+arduino+pcb&aqs=chrome..69i57.3291j0j7&sourceid=chrome&ie=UTF-8
+
+Localino Indoor Positioning System - RTLS (4 PCBs) from Localino on Tindie:
+https://www.tindie.com/products/kuek/localino-indoor-positioning-system-rtls-4-pcbs/
+
+Localino: Open Source Indoor Positioning System (Arduino + Decawave) : 5 Steps (with Pictures) - Instructables:
+https://www.instructables.com/Localino-Open-Source-Indoor-Location-System-Arduin/
+
+Localino: Open Source Indoor Positioning System (Arduino + Decawave) | Trybotics:
+https://trybotics.com/project/Localino-Open-Source-Indoor-Location-System-Arduin-5725
+
+Development and Productservices | Localino - We keep you on track!:
+https://www.localino.net/en/forschung-entwicklung/
+
+https://cdn.instructables.com/FEJ/VCMD/IW5JCTOX/FEJVCMDIW5JCTOX.LARGE.jpg?auto=webp&fit=bounds:
+https://cdn.instructables.com/FEJ/VCMD/IW5JCTOX/FEJVCMDIW5JCTOX.LARGE.jpg?auto=webp&fit=bounds
+
+dws1000 arduino - Google Search:
+https://www.google.com/search?q=dws1000+arduino&oq=dws1000+arduino&aqs=chrome..69i57j0i19.3520j0j7&sourceid=chrome&ie=UTF-8
+
+How to read DWS1000 on Arduino UNO - Decawave Developers Forum / Main Forum - Decawave Tech Forum:
+https://decaforum.decawave.com/t/how-to-read-dws1000-on-arduino-uno/9428/3
+
+NUCLEO-F429ZI - STM32 Nucleo-144 development board with STM32F429ZI MCU, supports Arduino, ST Zio and morpho connectivity - STMicroelectronics:
+https://www.st.com/en/evaluation-tools/nucleo-f429zi.html
+
+DWS1000 Product Brief:
+https://www.decawave.com/wp-content/uploads/2020/04/DWS1000_Product_Brief_V1_0.pdf
+
+DWS1000 Arduino Form-Factor Compatible Shield - Qorvo | Mouser:
+https://www.mouser.es/new/qorvo/qorvo-dws1000-shield/
+
+Using Arduino UNO with DWM1000 - Using Arduino / Networking, Protocols, and Devices - Arduino Forum:
+https://forum.arduino.cc/t/using-arduino-uno-with-dwm1000/495293/3
+
+UWB Ranging with the DecaWave DWM1000 - Part II - Wayne's Tinkering Page:
+https://sites.google.com/site/wayneholder/uwb-ranging-with-the-decawave-dwm1000---part-ii
+
+**************
+ESTO DE AQUI
+************
+MDEK1001 - Development Kit for DWM1001 module - 12 units, Android tablet application + PC App.:
+https://www.semiconductorstore.com/cart/pc/viewPrd.asp?idproduct=70928&gclid=EAIaIQobChMIpdOEuJeC3wIVhBx9Ch2IkwXBEAAYASAAEgLh9vD_BwE 
+
+OSH Park ~:
+https://oshpark.com/shared_projects/2qZiePck
+
+uwb-44 - Google Search:
+https://www.google.com/search?q=uwb-44&sxsrf=ALeKk02JzH4FUVdbjiCXkWlRGCLHvcer4A:1625675016533&source=lnms&tbm=isch&sa=X&ved=2ahUKEwilnIWvr9HxAhWyIMUKHaJcDAUQ_AUoAXoECAEQAw&biw=2558&bih=1287#imgrc=blpJmLlxcwTstM
+
