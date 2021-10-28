@@ -1,4 +1,4 @@
-update=28/10/2021 17:54:44
+update=28/10/2021 22:39:58
 version=1
 last_client=kicad
 [general]
@@ -33,7 +33,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=F:/OnedriveUni/OneDrive - EUSS - ESCOLA UNIVERSITÀRIA SALESIANA DE SARRIÀ/TFG/TFG_IDPS/Schematics/Layout_EUSS.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

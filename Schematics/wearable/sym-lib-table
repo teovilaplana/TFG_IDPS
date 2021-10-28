@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name wearable-rescue)(type Legacy)(uri ${KIPRJMOD}/wearable-rescue.lib)(options "")(descr ""))
+)

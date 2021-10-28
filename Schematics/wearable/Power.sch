@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
+Title "Power+BMS"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "v1.0"
+Comp "EUSS"
+Comment1 "Teo Vilaplana Dammann"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -43,20 +43,11 @@ Connection ~ 1490 2250
 Wire Wire Line
 	2190 1650 2190 1540
 $Comp
-L eec:BQ29702DSET U1
-U 1 1 617BC1EE
-P 7910 4000
-F 0 "U1" V 7857 4529 60  0000 R CNN
-F 1 "BQ29702DSET" V 7963 4529 60  0000 R CNN
-F 2 "DSE0006A" H 7910 3940 60  0001 C CNN
-F 3 "" H 7910 4000 60  0000 C CNN
-	1    7910 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L SamacSys_Parts:BQ25120AYFPR IC1
+L wearable-rescue:BQ25120AYFPR-SamacSys_Parts IC1
 U 1 1 617D98B2
 P 3600 1550
+AR Path="/617D98B2" Ref="IC1"  Part="1" 
+AR Path="/61B2BCEB/617D98B2" Ref="IC1"  Part="1" 
 F 0 "IC1" H 4350 1815 50  0000 C CNN
 F 1 "BQ25120AYFPR" H 4350 1724 50  0000 C CNN
 F 2 "BGA25C40P5X5_247X253X50" H 4950 1650 50  0001 L CNN
@@ -92,7 +83,6 @@ Wire Wire Line
 	2190 1770 2190 1650
 Wire Wire Line
 	2190 2070 2190 2250
-NoConn ~ 7610 3400
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 617E67B8
@@ -517,7 +507,7 @@ Wire Wire Line
 Text Notes 660  7630 0    50   ~ 0
 R9 & R10 allow charging between 0 and 45 ºC\n
 $Comp
-L SamacSys_Parts:BQ27421YZFR-G1A IC2
+L wearable-rescue:BQ27421YZFR-G1A-SamacSys_Parts IC2
 U 1 1 6194B159
 P 3680 5240
 F 0 "IC2" H 4280 5505 50  0000 C CNN
@@ -784,13 +774,9 @@ Wire Wire Line
 Wire Wire Line
 	9200 5650 9740 5650
 Wire Wire Line
-	8210 3400 8210 3280
-Wire Wire Line
-	8210 3280 9200 3280
-Wire Wire Line
 	9200 3280 9200 3950
 $Comp
-L SamacSys_Parts:CSD83325LT Q1
+L wearable-rescue:CSD83325LT-SamacSys_Parts Q1
 U 1 1 617B7A32
 P 7630 5810
 F 0 "Q1" H 8180 6075 50  0000 C CNN
@@ -819,8 +805,6 @@ F 3 "~" H 7340 5170 50  0001 C CNN
 	1    7340 5170
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7810 4600 7810 5170
 Wire Wire Line
 	7810 5170 7490 5170
 $Comp
@@ -931,13 +915,10 @@ F 3 "~" H 7070 4030 50  0001 C CNN
 	1    7070 4030
 	1    0    0    -1  
 $EndComp
-Connection ~ 8210 3280
 Wire Wire Line
 	7070 3280 7070 3880
 Wire Wire Line
-	7070 3280 8210 3280
-Wire Wire Line
-	7610 4600 7610 4690
+	7070 3280 7450 3280
 Wire Wire Line
 	7070 4690 7070 4180
 $Comp
@@ -968,14 +949,10 @@ Connection ~ 7610 4690
 Wire Wire Line
 	8800 4690 8800 5910
 Wire Wire Line
-	8010 4600 8010 5260
-Wire Wire Line
 	8010 5260 7550 5260
 Connection ~ 7550 5260
 Wire Wire Line
 	7550 5260 7550 6010
-Wire Wire Line
-	8210 4600 8210 4820
 Wire Wire Line
 	8210 4820 8770 4820
 Wire Wire Line
@@ -987,4 +964,61 @@ Text HLabel 1790 1650 0    50   Input ~ 0
 USB_5V
 Text Notes 8130 7640 0    50   ~ 0
 28/10/2021
+NoConn ~ 8650 4150
+Wire Wire Line
+	7610 4280 7410 4280
+Wire Wire Line
+	7410 4280 7410 3950
+Wire Wire Line
+	7410 3950 7550 3950
+Wire Wire Line
+	7610 4280 7610 4690
+Wire Wire Line
+	7550 4050 7450 4050
+Wire Wire Line
+	7450 4050 7450 3280
+Connection ~ 7450 3280
+Wire Wire Line
+	7450 3280 9200 3280
+Wire Wire Line
+	8650 3950 8990 3950
+Wire Wire Line
+	8990 3950 8990 4420
+Wire Wire Line
+	8990 4420 8010 4420
+Wire Wire Line
+	8010 4420 8010 5260
+$Comp
+L SamacSys_Parts:BQ29700DSET IC3
+U 1 1 617BE7CA
+P 8650 4150
+F 0 "IC3" H 9200 3685 50  0000 C CNN
+F 1 "BQ29700DSET" H 9200 3776 50  0000 C CNN
+F 2 "SON50P150X150X80-6N" H 9600 4250 50  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/bq2970.pdf?ts=1623391628369&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ2970" H 9600 4150 50  0001 L CNN
+F 4 "TEXAS INSTRUMENTS - BQ29700DSET - Li-Ion Battery, Li-Pol Voltage & Current Protector, Single Cell, 1.5 V to 8 V supply, WSON-6" H 9600 4050 50  0001 L CNN "Description"
+F 5 "0.8" H 9600 3950 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 9600 3850 50  0001 L CNN "Manufacturer_Name"
+F 7 "BQ29700DSET" H 9600 3750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-BQ29700DSET" H 9600 3650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29700DSET/?qs=%2Fd%252BFzHvH4c1rg6YL9zqcvA%3D%3D" H 9600 3550 50  0001 L CNN "Mouser Price/Stock"
+F 10 "BQ29700DSET" H 9600 3450 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/bq29700dset/texas-instruments" H 9600 3350 50  0001 L CNN "Arrow Price/Stock"
+	1    8650 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 4270 7810 4270
+Wire Wire Line
+	7550 4150 7550 4270
+Wire Wire Line
+	7810 4270 7810 5170
+Wire Wire Line
+	8210 4320 8800 4320
+Wire Wire Line
+	8800 4320 8800 4050
+Wire Wire Line
+	8800 4050 8650 4050
+Wire Wire Line
+	8210 4320 8210 4820
 $EndSCHEMATC
