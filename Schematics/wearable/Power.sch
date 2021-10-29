@@ -43,7 +43,7 @@ Connection ~ 1490 2250
 Wire Wire Line
 	2190 1650 2190 1540
 $Comp
-L wearable-rescue:BQ25120AYFPR-SamacSys_Parts IC1
+L SamacSys_Parts:BQ25120AYFPT IC1
 U 1 1 617D98B2
 P 3600 1550
 AR Path="/617D98B2" Ref="IC1"  Part="1" 
@@ -507,7 +507,7 @@ Wire Wire Line
 Text Notes 660  7630 0    50   ~ 0
 R9 & R10 allow charging between 0 and 45 ºC\n
 $Comp
-L wearable-rescue:BQ27421YZFR-G1A-SamacSys_Parts IC2
+L SamacSys_Parts:BQ27421YZFR-G1A IC2
 U 1 1 6194B159
 P 3680 5240
 F 0 "IC2" H 4280 5505 50  0000 C CNN
@@ -677,7 +677,6 @@ Text Label 5460 5440 2    50   ~ 0
 BAT
 Wire Wire Line
 	3350 2150 3600 2150
-Connection ~ 3600 2150
 Text Label 3350 2150 0    50   ~ 0
 BAT
 Wire Wire Line
@@ -776,7 +775,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 3280 9200 3950
 $Comp
-L wearable-rescue:CSD83325LT-SamacSys_Parts Q1
+L SamacSys_Parts:CSD83325LT Q1
 U 1 1 617B7A32
 P 7630 5810
 F 0 "Q1" H 8180 6075 50  0000 C CNN
@@ -1021,4 +1020,5 @@ Wire Wire Line
 	8800 4050 8650 4050
 Wire Wire Line
 	8210 4320 8210 4820
+Connection ~ 3600 2150
 $EndSCHEMATC
