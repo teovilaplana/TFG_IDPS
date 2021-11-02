@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+#Folders
+"F:\OnedriveUni\OneDrive - EUSS - ESCOLA UNIVERSITÀRIA SALESIANA DE SARRIÀ\TFG\TFG_IDPS\Doc\Localization\DWM1001\DWM1001_DWM1001-DEV_MDEK1001_Sources_and_Docs_v9\DWM1001\Source_Code\DWM1001_host_api"
+"F:\OnedriveUni\OneDrive - EUSS - ESCOLA UNIVERSITÀRIA SALESIANA DE SARRIÀ\TFG\TFG_IDPS\Doc\Localization\DWM1001\DWM1001_DWM1001-DEV_MDEK1001_Sources_and_Docs_v9\DWM1001\Source_Code\DWM1001_on_board_package"
