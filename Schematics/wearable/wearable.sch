@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "IDPS"
 Date "2021-10-28"
 Rev "v1.0"
@@ -35,8 +35,8 @@ $Comp
 L RF_Module:DWM1001 U1
 U 1 1 617B0168
 P 9690 2130
-F 0 "U1" H 9690 3411 50  0000 C CNN
-F 1 "DWM1001" H 9690 3320 50  0000 C CNN
+F 0 "U1" H 10240 3160 50  0000 C CNN
+F 1 "DWM1001" H 10120 3080 50  0000 C CNN
 F 2 "RF_Module:DecaWave_DWM1001" H 10390 1180 50  0001 C CNN
 F 3 "https://www.decawave.com/sites/default/files/dwm1001_datasheet.pdf" H 10590 1330 50  0001 C CNN
 	1    9690 2130
@@ -45,21 +45,21 @@ $EndComp
 $Comp
 L SamacSys_Parts:RP2040 IC4
 U 1 1 61810276
-P 3800 2340
-F 0 "IC4" H 5610 3070 50  0000 L CNN
-F 1 "RP2040" H 5600 400 50  0000 L CNN
-F 2 "QFN40P700X700X90-57N-D" H 5650 3040 50  0001 L CNN
-F 3 "https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf" H 5650 2940 50  0001 L CNN
-F 4 "Microcontroller in QFN Package" H 5650 2840 50  0001 L CNN "Description"
-F 5 "0.9" H 5650 2740 50  0001 L CNN "Height"
-F 6 "RASPBERRY-PI" H 5650 2640 50  0001 L CNN "Manufacturer_Name"
-F 7 "RP2040" H 5650 2540 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 5650 2440 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 5650 2340 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5650 2240 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5650 2140 50  0001 L CNN "Arrow Price/Stock"
-	1    3800 2340
-	1    0    0    -1  
+P 4990 4400
+F 0 "IC4" V 5080 4780 50  0000 L CNN
+F 1 "RP2040" V 5150 4780 50  0000 L CNN
+F 2 "QFN40P700X700X90-57N-D" H 6840 5100 50  0001 L CNN
+F 3 "https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf" H 6840 5000 50  0001 L CNN
+F 4 "Microcontroller in QFN Package" H 6840 4900 50  0001 L CNN "Description"
+F 5 "0.9" H 6840 4800 50  0001 L CNN "Height"
+F 6 "RASPBERRY-PI" H 6840 4700 50  0001 L CNN "Manufacturer_Name"
+F 7 "RP2040" H 6840 4600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 6840 4500 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 6840 4400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 6840 4300 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 6840 4200 50  0001 L CNN "Arrow Price/Stock"
+	1    4990 4400
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J1
@@ -125,8 +125,8 @@ $Comp
 L Device:R_Small R19
 U 1 1 6181931C
 P 1650 1290
-F 0 "R19" V 1650 1290 50  0000 C CNN
-F 1 "5.1k" V 1720 1290 50  0000 C CNN
+F 0 "R19" V 1720 1300 50  0000 C CNN
+F 1 "5.1k" V 1790 1300 50  0000 C CNN
 F 2 "" H 1650 1290 50  0001 C CNN
 F 3 "~" H 1650 1290 50  0001 C CNN
 	1    1650 1290
@@ -136,7 +136,7 @@ $Comp
 L Device:R_Small R20
 U 1 1 6181B113
 P 1650 1190
-F 0 "R20" V 1650 1190 50  0000 C CNN
+F 0 "R20" V 1500 1190 50  0000 C CNN
 F 1 "5.1k" V 1570 1190 50  0000 C CNN
 F 2 "" H 1650 1190 50  0001 C CNN
 F 3 "~" H 1650 1190 50  0001 C CNN
@@ -146,24 +146,24 @@ $EndComp
 $Comp
 L Device:R_Small R21
 U 1 1 6181DE62
-P 5100 1340
-F 0 "R21" V 5130 1410 50  0000 L CNN
-F 1 "27" V 5100 1290 50  0000 L CNN
-F 2 "" H 5100 1340 50  0001 C CNN
-F 3 "~" H 5100 1340 50  0001 C CNN
-	1    5100 1340
-	1    0    0    -1  
+P 3990 3100
+F 0 "R21" V 3940 3170 50  0000 L CNN
+F 1 "27" V 3870 3170 50  0000 L CNN
+F 2 "" H 3990 3100 50  0001 C CNN
+F 3 "~" H 3990 3100 50  0001 C CNN
+	1    3990 3100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R22
 U 1 1 6181F5B6
-P 5200 1340
-F 0 "R22" V 5240 1410 50  0000 L CNN
-F 1 "27" V 5200 1290 50  0000 L CNN
-F 2 "" H 5200 1340 50  0001 C CNN
-F 3 "~" H 5200 1340 50  0001 C CNN
-	1    5200 1340
-	1    0    0    -1  
+P 3990 3000
+F 0 "R22" V 4080 3070 50  0000 L CNN
+F 1 "27" V 4020 3070 50  0000 L CNN
+F 2 "" H 3990 3000 50  0001 C CNN
+F 3 "~" H 3990 3000 50  0001 C CNN
+	1    3990 3000
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2080 1290 2080 1430
@@ -177,13 +177,13 @@ USB_D+
 Wire Wire Line
 	1580 1790 1890 1790
 Connection ~ 1580 1790
-Text Label 5100 810  3    50   ~ 0
+Text Label 3460 3100 0    50   ~ 0
 USB_D+
 Wire Wire Line
-	5200 810  5200 1240
+	3460 3000 3890 3000
 Wire Wire Line
-	5100 810  5100 1240
-Text Label 5200 810  3    50   ~ 0
+	3460 3100 3890 3100
+Text Label 3460 3000 0    50   ~ 0
 USB_D-
 Text Notes 500  7200 0    50   ~ 0
 System can technically support 20V in through USB but is not recommended
@@ -194,4 +194,10 @@ Wire Wire Line
 Wire Wire Line
 	1750 1190 2080 1190
 Connection ~ 2080 1290
+$Sheet
+S 920  5560 1940 1000
+U 618704BE
+F0 "Biometrics" 50
+F1 "Biometrics.sch" 50
+$EndSheet
 $EndSCHEMATC

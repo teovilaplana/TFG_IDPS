@@ -1,62 +1,56 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP NE555DR
-D Single Precision Timer
-K
-F http://www.ti.com/lit/ds/symlink/ne555.pdf
-$ENDCMP
-#
-$CMP KX132-1211
-D Accelerometers Tri-Axis Acclrmtr 2g, 4g, 8g, 16g
-K
-F https://componentsearchengine.com/Datasheets/2/KX132-1211.pdf
-$ENDCMP
-#
 $CMP BQ25120AYFPR
 D 700nA Low Iq Highly Integrated Battery Charge Management Solution
-K
 F http://www.ti.com/lit/ds/symlink/bq25120a.pdf
-$ENDCMP
-#
-$CMP BQ27421YZFR-G1A
-D System-Side(tm) Fuel Gauge With Integrated Sense Resistor | Battery Gas Gauge
-K
-F http://www.ti.com/lit/gpn/bq27421-g1
-$ENDCMP
-#
-$CMP BQ51003YFPT
-D BQ51003 Wireless Power Receiver
-K
-F http://www.ti.com/lit/gpn/BQ51003
-$ENDCMP
-#
-$CMP BQ29700DSER
-D Li-Ion/Li Polymer Advanced Single-Cell Battery Protector IC Family
-K
-F http://www.ti.com/lit/ds/symlink/bq2971.pdf
 $ENDCMP
 #
 $CMP BQ25120AYFPT
 D 700nA Low Iq Highly Integrated Battery Charge Management Solution
-K
 F http://www.ti.com/lit/gpn/bq25120a
+$ENDCMP
+#
+$CMP BQ27421YZFR-G1A
+D System-Side(tm) Fuel Gauge With Integrated Sense Resistor | Battery Gas Gauge
+F http://www.ti.com/lit/gpn/bq27421-g1
+$ENDCMP
+#
+$CMP BQ29700DSER
+D Li-Ion/Li Polymer Advanced Single-Cell Battery Protector IC Family
+F http://www.ti.com/lit/ds/symlink/bq2971.pdf
 $ENDCMP
 #
 $CMP BQ29700DSET
 D TEXAS INSTRUMENTS - BQ29700DSET - Li-Ion Battery, Li-Pol Voltage & Current Protector, Single Cell, 1.5 V to 8 V supply, WSON-6
-K
 F https://www.ti.com/lit/ds/symlink/bq2970.pdf?ts=1623391628369&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ2970
+$ENDCMP
+#
+$CMP BQ51003YFPT
+D BQ51003 Wireless Power Receiver
+F http://www.ti.com/lit/gpn/BQ51003
 $ENDCMP
 #
 $CMP CSD83325LT
 D Texas Instruments CSD83325LT N-channel MOSFET Transistor, 8 A, 12 V, 6-Pin PICOSTAR
-K
 F http://www.ti.com/lit/ds/symlink/csd83325l.pdf
+$ENDCMP
+#
+$CMP KX132-1211
+D Accelerometers Tri-Axis Acclrmtr 2g, 4g, 8g, 16g
+F https://componentsearchengine.com/Datasheets/2/KX132-1211.pdf
+$ENDCMP
+#
+$CMP MAXM86146CFU+T
+D Complete Optical Biosensing Module with Ultra-Low-Power Biometric Sensor Hub Supports Simultaneous Heart Rate (HR) & Pulse Blood Oxygen Saturation (SpO2) Measurements
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
 $CMP RP2040
 D Microcontroller in QFN Package
-K
 F https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf
 $ENDCMP
 #

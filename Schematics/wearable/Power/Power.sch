@@ -54,51 +54,35 @@ $EndComp
 Wire Wire Line
 	2190 1650 2190 1540
 $Comp
-L eec:BQ29702DSET U1
+L SamacSys_Parts:BQ29700DSET U1
 U 1 1 617BC1EE
-P 7910 4000
-F 0 "U1" V 7857 4529 60  0000 L CNN
-F 1 "BQ29702DSET" V 7963 4529 60  0000 L CNN
-F 2 "DSE0006A" H 7910 3940 60  0001 C CNN
-F 3 "" H 7910 4000 60  0000 C CNN
-	1    7910 4000
-	0    1    1    0   
+P 7730 4210
+F 0 "U1" H 7870 4040 60  0000 C CNN
+F 1 "BQ29702DSET" H 7610 3950 60  0000 C CNN
+F 2 "DSE0006A" H 7730 4150 60  0001 C CNN
+F 3 "" H 7730 4210 60  0000 C CNN
+	1    7730 4210
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8210 4760 8840 4760
-Wire Wire Line
-	8840 4760 8840 5650
-Wire Wire Line
-	8840 5650 8730 5650
 $Comp
 L SamacSys_Parts:CSD83325LT Q1
 U 1 1 617B7A32
-P 7630 5650
-F 0 "Q1" H 8180 5915 50  0000 C CNN
-F 1 "CSD83325LT" H 8180 5824 50  0000 C CNN
-F 2 "BGA6C65P2X3_111X216X22" H 8580 5750 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/csd83325l.pdf" H 8580 5650 50  0001 L CNN
-F 4 "Texas Instruments CSD83325LT N-channel MOSFET Transistor, 8 A, 12 V, 6-Pin PICOSTAR" H 8580 5550 50  0001 L CNN "Description"
-F 5 "0.22" H 8580 5450 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 8580 5350 50  0001 L CNN "Manufacturer_Name"
-F 7 "CSD83325LT" H 8580 5250 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "595-CSD83325LT" H 8580 5150 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD83325LT/?qs=pqSajtDZXRVbUdPgdfAr7A%3D%3D" H 8580 5050 50  0001 L CNN "Mouser Price/Stock"
-F 10 "CSD83325LT" H 8580 4950 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/csd83325lt/texas-instruments" H 8580 4850 50  0001 L CNN "Arrow Price/Stock"
-	1    7630 5650
+P 7730 5600
+F 0 "Q1" H 8280 5227 50  0000 C CNN
+F 1 "CSD83325LT" H 8280 5136 50  0000 C CNN
+F 2 "BGA6C65P2X3_111X216X22" H 8680 5700 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/csd83325l.pdf" H 8680 5600 50  0001 L CNN
+F 4 "Texas Instruments CSD83325LT N-channel MOSFET Transistor, 8 A, 12 V, 6-Pin PICOSTAR" H 8680 5500 50  0001 L CNN "Description"
+F 5 "0.22" H 8680 5400 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 8680 5300 50  0001 L CNN "Manufacturer_Name"
+F 7 "CSD83325LT" H 8680 5200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-CSD83325LT" H 8680 5100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD83325LT/?qs=pqSajtDZXRVbUdPgdfAr7A%3D%3D" H 8680 5000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "CSD83325LT" H 8680 4900 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/csd83325lt/texas-instruments" H 8680 4800 50  0001 L CNN "Arrow Price/Stock"
+	1    7730 5600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8210 4600 8210 4760
-Wire Wire Line
-	8010 4600 8010 5360
-Wire Wire Line
-	8010 5360 7480 5360
-Wire Wire Line
-	7480 5360 7480 5850
-Wire Wire Line
-	7480 5850 7630 5850
 $Comp
 L SamacSys_Parts:BQ25120AYFPR IC1
 U 1 1 617D98B2
@@ -138,45 +122,17 @@ Wire Wire Line
 	2190 1770 2190 1650
 Wire Wire Line
 	2190 2070 2190 2250
-NoConn ~ 7610 3400
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 617E67B8
-P 9940 5650
-F 0 "J2" H 10020 5642 50  0000 L CNN
-F 1 "JST-XH BAT" H 10020 5551 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 9940 5650 50  0001 C CNN
-F 3 "~" H 9940 5650 50  0001 C CNN
-	1    9940 5650
+P 10050 5600
+F 0 "J2" H 10130 5592 50  0000 L CNN
+F 1 "JST-XH BAT" H 10130 5501 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 10050 5600 50  0001 C CNN
+F 3 "~" H 10050 5600 50  0001 C CNN
+	1    10050 5600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8730 5750 8800 5750
-Wire Wire Line
-	8800 5320 8070 5320
-Wire Wire Line
-	8070 5320 8070 5410
-Wire Wire Line
-	8070 5410 7610 5410
-Wire Wire Line
-	7610 5410 7610 5650
-Wire Wire Line
-	7610 5650 7630 5650
-Wire Wire Line
-	8800 5320 8800 5750
-Connection ~ 8800 5750
-Wire Wire Line
-	8800 5750 9740 5750
-Wire Wire Line
-	8730 5850 8820 5850
-Wire Wire Line
-	8820 5850 8820 6040
-Wire Wire Line
-	8820 6040 7580 6040
-Wire Wire Line
-	7580 6040 7580 5750
-Wire Wire Line
-	7580 5750 7630 5750
 $Comp
 L power:GNDREF #PWR?
 U 1 1 617B6639
@@ -657,17 +613,6 @@ F 3 "" H 3680 5740 50  0001 C CNN
 	1    3680 5740
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C5
-U 1 1 6194FD2C
-P 5200 5290
-F 0 "C5" H 5315 5336 50  0000 L CNN
-F 1 "4.7uF" H 5315 5245 50  0000 L CNN
-F 2 "" H 5238 5140 50  0001 C CNN
-F 3 "~" H 5200 5290 50  0001 C CNN
-	1    5200 5290
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4880 5440 5200 5440
 Connection ~ 5200 5440
@@ -685,16 +630,11 @@ $EndComp
 Wire Wire Line
 	5770 5140 5770 5170
 Wire Wire Line
-	5200 5140 5770 5140
-Wire Wire Line
 	4880 5340 5060 5340
 Wire Wire Line
 	5060 5340 5060 5140
-Wire Wire Line
-	5060 5140 5200 5140
-Connection ~ 5200 5140
 $Comp
-L Device:C C6
+L Device:C_Small C6
 U 1 1 61975DD3
 P 5210 4970
 F 0 "C6" V 4958 4970 50  0000 C CNN
@@ -708,10 +648,6 @@ Wire Wire Line
 	4880 5240 5000 5240
 Wire Wire Line
 	5000 5240 5000 4970
-Wire Wire Line
-	5000 4970 5060 4970
-Wire Wire Line
-	5360 4970 5770 4970
 Wire Wire Line
 	5770 4970 5770 5140
 Connection ~ 5770 5140
@@ -839,31 +775,222 @@ Wire Wire Line
 	3580 5540 3580 5600
 Wire Wire Line
 	5200 5440 5460 5440
-$Comp
-L Device:C C?
-U 1 1 61B0280F
-P 6120 5300
-F 0 "C?" H 6235 5346 50  0000 L CNN
-F 1 "C" H 6235 5255 50  0000 L CNN
-F 2 "" H 6158 5150 50  0001 C CNN
-F 3 "~" H 6120 5300 50  0001 C CNN
-	1    6120 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5770 5140 6120 5140
-Wire Wire Line
-	6120 5140 6120 5150
-Wire Wire Line
-	4880 5540 6120 5540
-Wire Wire Line
-	6120 5540 6120 5450
-Wire Wire Line
-	9740 5650 9350 5650
-Text Label 9350 5650 0    50   ~ 0
-Cell+
-Text Label 5850 5540 0    50   ~ 0
+Text Label 9460 5600 0    50   ~ 0
 Cell+
 Text GLabel 3580 5600 3    50   Input ~ 0
 BIN
+Wire Wire Line
+	7730 5700 7610 5700
+Wire Wire Line
+	7610 5700 7610 5800
+Wire Wire Line
+	7610 5800 7730 5800
+Wire Wire Line
+	8830 5700 8940 5700
+Wire Wire Line
+	8940 5700 8940 5800
+Wire Wire Line
+	8940 5800 8830 5800
+Wire Wire Line
+	8180 4710 8180 5210
+Wire Wire Line
+	8430 4710 8430 5210
+$Comp
+L Device:R_Small R?
+U 1 1 6192A60E
+P 7820 4930
+F 0 "R?" V 7680 4930 50  0000 C CNN
+F 1 "2.2k" V 7750 4930 50  0000 C CNN
+F 2 "" H 7820 4930 50  0001 C CNN
+F 3 "~" H 7820 4930 50  0001 C CNN
+	1    7820 4930
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61930709
+P 7820 5210
+F 0 "R?" V 7680 5210 50  0000 C CNN
+F 1 "5.1M" V 7750 5210 50  0000 C CNN
+F 2 "" H 7820 5210 50  0001 C CNN
+F 3 "~" H 7820 5210 50  0001 C CNN
+	1    7820 5210
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61932300
+P 7610 5390
+F 0 "R?" H 7669 5436 50  0000 L CNN
+F 1 "0.56" H 7669 5345 50  0000 L CNN
+F 2 "" H 7610 5390 50  0001 C CNN
+F 3 "~" H 7610 5390 50  0001 C CNN
+	1    7610 5390
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7610 5490 7610 5700
+Connection ~ 7610 5700
+Wire Wire Line
+	7720 5210 7610 5210
+Wire Wire Line
+	7610 5210 7610 5290
+Wire Wire Line
+	7920 5210 8180 5210
+Connection ~ 8180 5210
+Wire Wire Line
+	8180 5210 8180 5300
+Connection ~ 7610 5210
+Wire Wire Line
+	8030 4930 8030 4710
+Wire Wire Line
+	7920 4930 8030 4930
+Wire Wire Line
+	7610 4930 7610 5210
+Wire Wire Line
+	7610 4930 7720 4930
+$Comp
+L Device:R_Small R?
+U 1 1 619745A5
+P 8290 6250
+F 0 "R?" V 8200 6250 50  0000 C CNN
+F 1 "DNI" V 8130 6250 50  0000 C CNN
+F 2 "" H 8290 6250 50  0001 C CNN
+F 3 "~" H 8290 6250 50  0001 C CNN
+	1    8290 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8190 6250 7330 6250
+Wire Wire Line
+	7330 6250 7330 5210
+Wire Wire Line
+	7330 5210 7610 5210
+Wire Wire Line
+	8390 6250 8940 6250
+Wire Wire Line
+	8940 6250 8940 5800
+Connection ~ 8940 5800
+Wire Wire Line
+	8940 5700 9850 5700
+Connection ~ 8940 5700
+$Comp
+L Device:C_Small C?
+U 1 1 619880F6
+P 8940 4320
+F 0 "C?" H 9032 4366 50  0000 L CNN
+F 1 "C_Small" H 9032 4275 50  0000 L CNN
+F 2 "" H 8940 4320 50  0001 C CNN
+F 3 "~" H 8940 4320 50  0001 C CNN
+	1    8940 4320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8130 3910 8130 3750
+Wire Wire Line
+	8130 3750 8940 3750
+Wire Wire Line
+	8940 3750 8940 4220
+Wire Wire Line
+	8940 4420 8940 4930
+Wire Wire Line
+	8580 4710 8580 4930
+Wire Wire Line
+	8580 4930 8940 4930
+Connection ~ 8940 4930
+Wire Wire Line
+	8940 4930 8940 5210
+$Comp
+L Device:R_Small R?
+U 1 1 6199B7B0
+P 8700 5210
+F 0 "R?" V 8570 5210 50  0000 C CNN
+F 1 "5.1M" V 8630 5210 50  0000 C CNN
+F 2 "" H 8700 5210 50  0001 C CNN
+F 3 "~" H 8700 5210 50  0001 C CNN
+	1    8700 5210
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 5210 8430 5210
+Connection ~ 8430 5210
+Wire Wire Line
+	8430 5210 8430 5300
+Wire Wire Line
+	8800 5210 8940 5210
+Connection ~ 8940 5210
+Wire Wire Line
+	8940 5210 8940 5700
+$Comp
+L Device:R_Small R?
+U 1 1 619A9052
+P 9410 4320
+F 0 "R?" H 9469 4366 50  0000 L CNN
+F 1 "330" H 9469 4275 50  0000 L CNN
+F 2 "" H 9410 4320 50  0001 C CNN
+F 3 "~" H 9410 4320 50  0001 C CNN
+	1    9410 4320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9410 4220 9410 3750
+Wire Wire Line
+	9410 3750 8940 3750
+Connection ~ 8940 3750
+Wire Wire Line
+	9410 4420 9410 5600
+Wire Wire Line
+	9410 5600 9850 5600
+Wire Wire Line
+	5200 5390 5200 5440
+Wire Wire Line
+	5200 5190 5200 5140
+Wire Wire Line
+	5060 5140 5200 5140
+Connection ~ 5200 5140
+Wire Wire Line
+	5200 5140 5770 5140
+$Comp
+L power:GNDREF #PWR?
+U 1 1 619D3403
+P 7060 5320
+F 0 "#PWR?" H 7060 5070 50  0001 C CNN
+F 1 "GNDREF" H 7065 5147 50  0000 C CNN
+F 2 "" H 7060 5320 50  0001 C CNN
+F 3 "" H 7060 5320 50  0001 C CNN
+	1    7060 5320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7330 5210 7060 5210
+Wire Wire Line
+	7060 5210 7060 5320
+Connection ~ 7330 5210
+Wire Wire Line
+	5310 4970 5770 4970
+Wire Wire Line
+	5000 4970 5110 4970
+$Comp
+L Device:C_Small C5
+U 1 1 6194FD2C
+P 5200 5290
+F 0 "C5" H 5315 5336 50  0000 L CNN
+F 1 "4.7uF" H 5315 5245 50  0000 L CNN
+F 2 "" H 5238 5140 50  0001 C CNN
+F 3 "~" H 5200 5290 50  0001 C CNN
+	1    5200 5290
+	1    0    0    -1  
+$EndComp
+Text Label 5090 5540 2    50   ~ 0
+Cell+
+Wire Wire Line
+	5090 5540 4880 5540
+Wire Notes Line
+	6650 3540 11040 3540
+Wire Notes Line
+	11040 3540 11040 6480
+Wire Notes Line
+	11040 6480 6650 6480
+Wire Notes Line
+	6650 6480 6650 3540
 $EndSCHEMATC
