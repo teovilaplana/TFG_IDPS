@@ -1,4 +1,4 @@
-19225891258531820
+19235710096814319
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76293,12 +76293,26 @@ rotary encoder
 5
 4
 SamacSys_Parts
+BGA6C40P2X3_79X119X62
+WCSP (6)
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
 BGA6C65P2X3_111X216X22
 6-Pin PICOSTAR
 Transistor
 0
 6
 6
+SamacSys_Parts
+BGA9C40P3X3_124X124X69
+21-0459 H
+Integrated Circuit
+0
+9
+9
 SamacSys_Parts
 BGA9C50P3X3_162X158X62
 BQ27421YZFR-G1A
@@ -76321,12 +76335,26 @@ Integrated Circuit
 28
 28
 SamacSys_Parts
+CTDBLP31126C5D56J6U620R18
+CT DBLP31.12-6C5D-56-J6U6-20-R18-1
+LED
+0
+3
+3
+SamacSys_Parts
 KX1321211
 KX132-1211-2
 Integrated Circuit
 0
 12
 12
+SamacSys_Parts
+MAXM86146CFUT
+MAXM86146CFU+T-1
+Integrated Circuit
+0
+38
+38
 SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
@@ -76341,6 +76369,13 @@ Integrated Circuit
 0
 57
 57
+SamacSys_Parts
+SFH7015
+SFH 7015-3
+LED
+0
+4
+4
 SamacSys_Parts
 SON50P150X150X80-6N
 DSE (s-pdso-n6),
@@ -83082,3 +83117,10 @@ varistor SIOV
 0
 2
 2
+footprints
+TLV74218PDQNR
+
+
+0
+5
+5

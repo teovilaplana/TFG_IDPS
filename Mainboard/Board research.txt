@@ -1,3 +1,0 @@
-https://www.decawave.com/dwm1001dev/schematic/
-
-https://www.st.com/en/evaluation-tools/nucleo-f072rb.html#

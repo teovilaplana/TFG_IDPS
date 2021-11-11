@@ -3,3 +3,11 @@ Se han seguido las recomendaciones de texas instruments para este tipo de aplica
 Se ha comprobado que el consumo de corriente maximo no exceda el limite del sistema (limitacion: se debe apagar el sensor de pulsoxometria mientras se envian datos por uwb)
 Accelerometro puede que requiera un buffer (el original tiene un buffer de 2048 pero esta en EOL y el nuevo es de 512)
 BQ29700 para cumplir con OCP y ODP de la bateria
+
+Cuando se lea el puslo/SpO2 se debe encender el boost converter esperar 10 ms y despues empezar a leer.
+Calculo divisor tension para boost converter (pagina 11 de su datasheet TPS61046) R1 = 360k R2 = 68K
+El enable del boost usa niveles logicos de 1V
+Ripple maximo para los LED deberia ser >30mVpp se calcularan inductores para 25mVpp
+Buck-boost de 1MHz -> entra en el rango recomendado para el sistema de biometrics -> OK
+Condensador de salida calculado para D = 0.25@1MHz 1.5 uF
+Siguiendo las recomendaciones del datasheet del IC que gestionara la biometria se han escogido LEDs y un MUX ademas de que ha sido necesaria la creacion de un rail de 5V

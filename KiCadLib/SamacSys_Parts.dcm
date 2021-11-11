@@ -35,9 +35,19 @@ D Texas Instruments CSD83325LT N-channel MOSFET Transistor, 8 A, 12 V, 6-Pin PIC
 F http://www.ti.com/lit/ds/symlink/csd83325l.pdf
 $ENDCMP
 #
+$CMP CT_DBLP31.12-6C5D-56-J6U6-20-R18
+D Standard LEDs - SMD Green 536nm Firefly E2218
+F https://www.mouser.com/catalog/specsheets/Osram-03-25-2019-CT%20DBLP31.12_EN.pdf
+$ENDCMP
+#
 $CMP KX132-1211
 D Accelerometers Tri-Axis Acclrmtr 2g, 4g, 8g, 16g
 F https://componentsearchengine.com/Datasheets/2/KX132-1211.pdf
+$ENDCMP
+#
+$CMP MAX14689EWL+T
+D Analog Switch ICs High BW 5V Capable DPDT Analog Switches
+F https://datasheets.maximintegrated.com/en/ds/MAX14689.pdf
 $ENDCMP
 #
 $CMP MAXM86146CFU+T
@@ -52,6 +62,21 @@ $ENDCMP
 $CMP RP2040
 D Microcontroller in QFN Package
 F https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf
+$ENDCMP
+#
+$CMP SFH_7015
+D Infrared Emitters - High Power MULTI CHIPLED IR EMITTER RED Red (655 nm) and Infrared Emitter (940 nm) Draft Version .2
+F https://www.osram.com/ecat/CHIPLED%C2%AE%20SFH%207015/com/en/class_pim_web_catalog_103489/global/prd_pim_device_6573079/
+$ENDCMP
+#
+$CMP SIT1532AC-J5-AA3-32.768E
+D Oscillator MEMS 0.032768MHz +/-75ppm (Stability) 52% 1.8V/2.5V/3.3V 4-Pin CSP SMD T/R SiT1532 Smallest Footprint (1.2mm2) CSP 10 ppm Ultra-Low Power 32.768 kHz XTAL Replacement
+F https://www.sitime.com/datasheet/SiT1532
+$ENDCMP
+#
+$CMP TPS61046YFFR
+D 28-V Output Voltage Boost Converter in WCSP Package
+F http://www.ti.com/lit/gpn/tps61046
 $ENDCMP
 #
 #End Doc Library
