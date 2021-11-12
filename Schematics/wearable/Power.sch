@@ -326,25 +326,10 @@ F 3 "~" H 2310 5430 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 5430 2500 5660
-Text Label 3930 5660 2    50   ~ 0
-VDD
 Text Label 4400 5860 2    50   ~ 0
 BAT
 Text Label 3390 2150 0    50   ~ 0
 BAT
-$Comp
-L Device:C_Small C6
-U 1 1 61B0280F
-P 5060 5720
-F 0 "C6" H 5060 5780 50  0000 L CNN
-F 1 "1uF" H 5060 5650 50  0000 L CNN
-F 2 "" H 5098 5570 50  0001 C CNN
-F 3 "~" H 5060 5720 50  0001 C CNN
-	1    5060 5720
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4710 5560 5060 5560
 Wire Wire Line
 	3820 5960 5060 5960
 Text Label 9630 5690 0    50   ~ 0
@@ -519,10 +504,6 @@ Wire Wire Line
 Connection ~ 4140 5860
 Wire Wire Line
 	4140 5860 4400 5860
-Wire Wire Line
-	5060 5560 5060 5620
-Wire Wire Line
-	5060 5820 5060 5960
 Wire Wire Line
 	2100 5430 2210 5430
 Wire Wire Line
@@ -1074,71 +1055,10 @@ Text Label 1910 5760 0    50   ~ 0
 SDA
 Wire Wire Line
 	2620 5860 1870 5860
-$Comp
-L SamacSys_Parts:TPS61046YFFR IC8
-U 1 1 61975D3C
-P 8440 2430
-F 0 "IC8" H 8990 2695 50  0000 C CNN
-F 1 "TPS61046YFFR" H 8990 2604 50  0000 C CNN
-F 2 "BGA6C40P2X3_79X119X62" H 9390 2530 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/tps61046" H 9390 2430 50  0001 L CNN
-F 4 "28-V Output Voltage Boost Converter in WCSP Package" H 9390 2330 50  0001 L CNN "Description"
-F 5 "0.625" H 9390 2230 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 9390 2130 50  0001 L CNN "Manufacturer_Name"
-F 7 "TPS61046YFFR" H 9390 2030 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "595-TPS61046YFFR" H 9390 1930 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61046YFFR?qs=MiqG6Kq1qKNwq3TLqYBDaw%3D%3D" H 9390 1830 50  0001 L CNN "Mouser Price/Stock"
-F 10 "TPS61046YFFR" H 9390 1730 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/tps61046yffr/texas-instruments" H 9390 1630 50  0001 L CNN "Arrow Price/Stock"
-	1    8440 2430
-	1    0    0    -1  
-$EndComp
 Text Label 8240 2430 0    50   ~ 0
 PMID
 Text HLabel 7930 2880 0    50   Input ~ 0
 BOOST_EN
-$Comp
-L Device:R_Small R38
-U 1 1 6198E133
-P 8170 2880
-F 0 "R38" V 7974 2880 50  0000 C CNN
-F 1 "130k" V 8065 2880 50  0000 C CNN
-F 2 "" H 8170 2880 50  0001 C CNN
-F 3 "~" H 8170 2880 50  0001 C CNN
-	1    8170 2880
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R39
-U 1 1 6198EA22
-P 8360 3080
-F 0 "R39" H 8419 3126 50  0000 L CNN
-F 1 "56k" H 8419 3035 50  0000 L CNN
-F 2 "" H 8360 3080 50  0001 C CNN
-F 3 "~" H 8360 3080 50  0001 C CNN
-	1    8360 3080
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8270 2880 8360 2880
-Wire Wire Line
-	8360 2880 8360 2980
-Wire Wire Line
-	8360 2880 8440 2880
-Connection ~ 8360 2880
-Wire Wire Line
-	8070 2880 7930 2880
-$Comp
-L power:GNDREF #PWR0155
-U 1 1 619A0D51
-P 8360 3180
-F 0 "#PWR0155" H 8360 2930 50  0001 C CNN
-F 1 "GNDREF" H 8365 3007 50  0000 C CNN
-F 2 "" H 8360 3180 50  0001 C CNN
-F 3 "" H 8360 3180 50  0001 C CNN
-	1    8360 3180
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GNDREF #PWR0156
 U 1 1 619A1FCF
@@ -1480,4 +1400,49 @@ $EndComp
 Connection ~ 6340 4050
 Wire Wire Line
 	6340 4050 6510 4050
+$Comp
+L SamacSys_Parts:TPS61046YFFR IC8
+U 1 1 61975D3C
+P 8440 2430
+F 0 "IC8" H 8990 2695 50  0000 C CNN
+F 1 "TPS61046YFFR" H 8990 2604 50  0000 C CNN
+F 2 "BGA6C40P2X3_79X119X62" H 9390 2530 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/tps61046" H 9390 2430 50  0001 L CNN
+F 4 "28-V Output Voltage Boost Converter in WCSP Package" H 9390 2330 50  0001 L CNN "Description"
+F 5 "0.625" H 9390 2230 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 9390 2130 50  0001 L CNN "Manufacturer_Name"
+F 7 "TPS61046YFFR" H 9390 2030 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-TPS61046YFFR" H 9390 1930 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS61046YFFR?qs=MiqG6Kq1qKNwq3TLqYBDaw%3D%3D" H 9390 1830 50  0001 L CNN "Mouser Price/Stock"
+F 10 "TPS61046YFFR" H 9390 1730 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/tps61046yffr/texas-instruments" H 9390 1630 50  0001 L CNN "Arrow Price/Stock"
+	1    8440 2430
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7930 2880 8440 2880
+Wire Wire Line
+	5060 6160 5060 6300
+$Comp
+L Device:C_Small C6
+U 1 1 6191B654
+P 5060 6060
+F 0 "C6" H 5060 6120 50  0000 L CNN
+F 1 "1uF" H 5060 5990 50  0000 L CNN
+F 2 "" H 5098 5910 50  0001 C CNN
+F 3 "~" H 5060 6060 50  0001 C CNN
+	1    5060 6060
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR06
+U 1 1 61923251
+P 5060 6300
+F 0 "#PWR06" H 5060 6050 50  0001 C CNN
+F 1 "GNDREF" H 5065 6127 50  0000 C CNN
+F 2 "" H 5060 6300 50  0001 C CNN
+F 3 "" H 5060 6300 50  0001 C CNN
+	1    5060 6300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
